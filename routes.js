@@ -6,7 +6,6 @@ const about = require("./controllers/about.js");
 const dashboard = require("./controllers/dashboard.js");
 
 router.get("/", home.index);
-router.get("/about", about.index);
 router.get("/dashboard", dashboard.index);
 
 module.exports = router;
