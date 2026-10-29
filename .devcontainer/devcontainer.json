@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
 	// Slim Node.js base image (instead of the ~10 GB Codespaces default "universal" image)
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
