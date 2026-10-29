@@ -1,6 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/python
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
+	// Slim Node.js base image (instead of the ~10 GB Codespaces default "universal" image)
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
     	"ghcr.io/devcontainers-extra/features/live-server:1": {},
